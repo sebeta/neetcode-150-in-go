@@ -9,7 +9,7 @@ package twosum
 // Time complexity: O(n), where n is the length of nums.
 // Space complexity: O(n), for the map of seen numbers.
 //
-//	NOTE: This is the most optimal solution from the video.
+// NOTE: This is the most optimal solution from the video.
 func TwoSum(nums []int, target int) []int {
 	positionPerNum := make(map[int]int) // Number -> Number's position
 	for i, num := range nums {
