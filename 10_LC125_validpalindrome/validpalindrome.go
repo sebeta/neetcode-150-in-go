@@ -19,7 +19,12 @@ import "unicode"
 func IsPalindrome(str string) bool {
 	l := 0            // Left
 	r := len(str) - 1 // Right
+
+	// Stops when the pointers meet: the middle character of an odd-length
+	// string would only be compared with itself.
 	for l < r {
+		// The l < r check in the inner loops keeps the pointers from crossing
+		// (or leaving the string) while skipping non-alphanumeric characters.
 		for l < r && !unicode.IsLetter(rune(str[l])) && !unicode.IsDigit(rune(str[l])) {
 			l++
 		}
