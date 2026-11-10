@@ -115,6 +115,7 @@ go test -bench . -benchmem ./NN_LC<number>_<name>/
 
 ## Other
 
-- Don't commit or push unless the user asks.
+- Don't commit or push unless the user asks. Running `/submit-exercise` counts as asking: it commits the exercise and pushes it to `main`.
+- Commit messages follow Conventional Commits. For an exercise: `feat: add “<Problem name>” exercise (LeetCode <number>)`, with typographic quotes and without a `Co-Authored-By` line.
 - Don't leave temporary files in the repository.
 - If asked only for "the best time complexity", answer with just that (and the space complexity if it matters), no hints.
