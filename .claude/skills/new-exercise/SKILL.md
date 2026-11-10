@@ -29,7 +29,7 @@ Reply in the language of the user's message. If there is no clear signal (for ex
 - which files were created and which already existed,
 - the function signature the user has to implement and the package name,
 - what the tests cover (a few bullet points) and which cases fail with the skeleton,
-- how to run them (`go test -v ./<folder>/`), and
+- how to run them, with the command alone in its own fenced code block (```` ```bash ````), so the user can copy it directly (for example, `go test -v ./18_LC567_permutationinstring/`, with the real folder name), and
 - the best time and space complexities achievable for the problem.
 
 Give hints on how to solve the problem only if the user asks for them.
