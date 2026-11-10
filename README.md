@@ -37,6 +37,12 @@ The categories follow the ones used by NeetCode. To run all the tests: `go test 
 | 11 | [Container With Most Water](13_LC11_containerwithmostwater/leetcode11.md) | Medium | [containerwithmostwater.go](13_LC11_containerwithmostwater/containerwithmostwater.go) |
 | 42 | [Trapping Rain Water](14_LC42_trappingrainwater/leetcode42.md) | Hard | [trappingrainwater.go](14_LC42_trappingrainwater/trappingrainwater.go) |
 
+### Stack
+
+| LeetCode | Problem | Difficulty | Solution |
+|---|---|---|---|
+| 20 | [Valid Parentheses](21_LC20_validparentheses/leetcode20.md) | Easy | [validparentheses.go](21_LC20_validparentheses/validparentheses.go) |
+
 ### Sliding Window
 
 | LeetCode | Problem | Difficulty | Solution |
