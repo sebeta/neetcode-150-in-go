@@ -43,3 +43,4 @@ The categories follow the ones used by NeetCode. To run all the tests: `go test 
 |---|---|---|---|
 | 121 | [Best Time to Buy and Sell Stock](15_LC121_besttimetobuyandsellstock/leetcode121.md) | Easy | [besttimetobuyandsellstock.go](15_LC121_besttimetobuyandsellstock/besttimetobuyandsellstock.go) |
 | 3 | [Longest Substring Without Repeating Characters](16_LC03_longestsubstring/leetcode03.md) | Medium | [longestsubstring.go](16_LC03_longestsubstring/longestsubstring.go) |
+| 424 | [Longest Repeating Character Replacement](17_LC_424_longestrepeatingcharacter/leetcode424.md) | Medium | [longestrepeatingcharacter.go](17_LC_424_longestrepeatingcharacter/longestrepeatingcharacter.go) |
