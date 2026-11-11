@@ -51,3 +51,4 @@ The categories follow the ones used by NeetCode. To run all the tests: `go test 
 | 3 | [Longest Substring Without Repeating Characters](16_LC03_longestsubstring/leetcode03.md) | Medium | [longestsubstring.go](16_LC03_longestsubstring/longestsubstring.go) |
 | 424 | [Longest Repeating Character Replacement](17_LC_424_longestrepeatingcharacter/leetcode424.md) | Medium | [longestrepeatingcharacter.go](17_LC_424_longestrepeatingcharacter/longestrepeatingcharacter.go) |
 | 567 | [Permutation in String](18_LC567_permutationinstring/leetcode567.md) | Medium | [permutationinstring.go](18_LC567_permutationinstring/permutationinstring.go) |
+| 76 | [Minimum Window Substring](19_LC76_minimumwindowsubstring/leetcode76.md) | Hard | [minimumwindowsubstring.go](19_LC76_minimumwindowsubstring/minimumwindowsubstring.go) |
